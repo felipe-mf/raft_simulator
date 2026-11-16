@@ -14,6 +14,7 @@ qt_add_library(raftcore STATIC
     src/core/raftmessage.h
     src/core/raftnode.h
     src/core/raftnode.cpp
+    src/core/simtime.h
 )
 target_include_directories(raftcore PUBLIC src)
 target_link_libraries(raftcore PUBLIC Qt6::Core)
